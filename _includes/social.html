@@ -20,6 +20,16 @@
     </a>
   </li>
   {% endif %}
+
+  {% if site.social.gitee %}
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://gitee.com/{{site.social.gitee}}" title="@{{site.social.gitee}} 的 Gitee" target="_blank">
+      <i class='social fa fa-gitee'></i>
+      <span class="label">Gitee</span>
+    </a>
+  </li>
+  {% endif %}
   
   {% if site.social.twitter %}
   <!-- Twitter -->
